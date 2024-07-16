@@ -1,11 +1,10 @@
 package org.example.database;
 
 import org.example.user.Player;
-
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.Arrays;
 
+//This DataBase class is a singleton class for performing all the jdbc related operations
 public class DataBase {
     static DataBase dataBase;
     private final Connection connection;
